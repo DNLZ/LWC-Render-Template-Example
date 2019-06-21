@@ -1,15 +1,15 @@
 import { LightningElement, track } from 'lwc';
-import {default as renderTestTemplate} from './renderTest.html'
-import {default as word} from './tempates/word.html'
+import {default as mainTemplate} from './renderTest.html'
+import {default as testTemplate} from './tempates/testTemplate.html'
 
 export default class RenderTest extends LightningElement {
 
-    name = 'Dan';
+    testProperty = 'User';
 
     @track defaultTemplate = true;
 
     render() {
-        return this.defaultTemplate ? renderTestTemplate : word;
+        return this.defaultTemplate ? mainTemplate : testTemplate;
     }
 
     handleToggleButtonPress() {
