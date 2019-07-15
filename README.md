@@ -2,6 +2,8 @@
 
 An example of how to use the render() lifecycle hook to switch between templates in a Lightning web component
 
+Blog post: https://sfdc.danielzeidler.com/2019/07/12/using-the-lwc-render-lifecycle-hook-to-switch-templates/
+
 ## Installation via SFDX
 
 1. Create a scratch org:
